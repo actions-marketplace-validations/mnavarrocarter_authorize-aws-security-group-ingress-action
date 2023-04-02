@@ -30,7 +30,7 @@
     "node-fetch": "^3.3.0"
   },
   "devDependencies": {
-    "@jest/globals": "^29.3.1",
+    "@jest/globals": "^29.5.0",
     "@types/jest": "^29.2.6",
     "@vercel/ncc": "^0.31.1",
     "eslint": "^8.0.0",
