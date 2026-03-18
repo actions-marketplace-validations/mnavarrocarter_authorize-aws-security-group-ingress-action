@@ -14,7 +14,7 @@ jobs:
       NODE_OPTIONS: --experimental-vm-modules
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
     - run: npm ci
     - run: npm test
 
@@ -22,7 +22,7 @@ jobs:
     name: Functional
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v6
     - name: Authorize SSH Connections
       uses: ./
       with:
